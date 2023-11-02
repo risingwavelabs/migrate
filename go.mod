@@ -189,3 +189,6 @@ require (
 )
 
 go 1.18
+
+// Need this PR for unit tests, since RisingWave docker image doesn't expose ports explicitly https://github.com/dhui/dktest/pull/21
+replace github.com/dhui/dktest => github.com/mbobrovskyi/dktest v0.0.0-20230213084033-da48df31d252
